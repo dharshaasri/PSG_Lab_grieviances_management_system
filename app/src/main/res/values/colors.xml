@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CD1040</color>
+    <color name="colorPrimaryDark">#D2450E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="editTextBackgroundLight">#F5F5F5</color> <!-- Light grey -->
+    <color name="editTextBackgroundMedium">#E0E0E0</color> <!-- Medium grey -->
+    <color name="editTextBackgroundDark">#BDBDBD</color> <!-- Dark grey -->
+    <color name="backgroundStartColor">#80CD1040</color> <!-- 50% opacity -->
+    <color name="backgroundEndColor">#80D2450E</color>   <!-- 50% opacity -->
+
+
+</resources>

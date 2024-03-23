@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_lab"
+        android:title="Lab/System"
+        android:icon="@drawable/ic_lab" />
+    <item
+        android:id="@+id/menu_view_grievances"
+        android:title="View Grievances"
+        android:icon="@drawable/ic_view_grievances" />
+    <item
+        android:id="@+id/menu_report_grievance"
+        android:title="Report Grievance"
+        android:icon="@drawable/ic_report_grievance" />
+</menu>
