@@ -1,14 +1,66 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/menu_lab"
-        android:title="Lab/System"
-        android:icon="@drawable/ic_lab" />
-    <item
-        android:id="@+id/menu_view_grievances"
-        android:title="View Grievances"
-        android:icon="@drawable/ic_view_grievances" />
-    <item
-        android:id="@+id/menu_report_grievance"
-        android:title="Report Grievance"
-        android:icon="@drawable/ic_report_grievance" />
-</menu>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Main Content -->
+    <!-- Bottom Navigation Bar -->
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bar">
+
+        <!-- My Profile -->
+        <TextView
+            android:id="@+id/my_profile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <!-- Labs -->
+        <TextView
+            android:id="@+id/labs"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Labs"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <!-- Report Grievances -->
+        <TextView
+            android:id="@+id/report_grievance"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Report Grievance"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <!-- View Grievances -->
+        <TextView
+            android:id="@+id/view_grievance"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="View Grievances"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

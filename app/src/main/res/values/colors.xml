@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#CD1040</color>
-    <color name="colorPrimaryDark">#D2450E</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="editTextBackgroundLight">#F5F5F5</color> <!-- Light grey -->
-    <color name="editTextBackgroundMedium">#E0E0E0</color> <!-- Medium grey -->
-    <color name="editTextBackgroundDark">#BDBDBD</color> <!-- Dark grey -->
-    <color name="backgroundStartColor">#80CD1040</color> <!-- 50% opacity -->
-    <color name="backgroundEndColor">#80D2450E</color>   <!-- 50% opacity -->
-
-
+    <color name="theme">#71C5EA</color>
+    <color name="colorPrimary">#45A6D1</color>
+    <color name="colorPrimaryDark">#195773</color>
+    <color name="colorAccent">#40C4FF</color>
+    <color name="bar">#DC27223A</color>
+    <color name="button">#3E3D3D</color>
+    <color name="shade">#DCAFA8CC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
 </resources>

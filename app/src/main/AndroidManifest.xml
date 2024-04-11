@@ -25,14 +25,30 @@
         <activity android:name=".MainActivity"
             android:exported="true">
         </activity>
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".CCLabActivity"/>
-        <activity android:name=".ProjectLabActivity"/>
-        <activity android:name=".ISLabActivity"/>
-        <activity android:name=".MyProfileActivity" />
-        <activity android:name=".ReportGrievanceActivity"/>
-        <activity android:name=".ViewGrievanceActivity"/>
-        <activity android:name=".LabsActivity"/>
+        <activity android:name=".MenuActivity"
+            android:exported="true"/>
+        <activity android:name=".CCLabActivity"
+            android:exported="true"/>
+        <activity android:name=".ProjectLabActivity"
+            android:exported="true"/>
+        <activity android:name=".ISLabActivity"
+            android:exported="true"/>
+        <activity android:name=".MyProfileActivity"
+            android:exported="true"/>
+        <activity android:name=".ReportGrievanceActivity"
+            android:exported="true"/>
+        <activity android:name=".ViewGrievanceActivity"
+            android:exported="true"/>
+        <activity android:name=".LabsActivity"
+            android:exported="true"/>
+        <activity android:name=".BottomnavActivity"
+            android:exported="true"/>
+        <activity android:name=".BottomNav"
+            android:exported="true"/>
+        <activity android:name=".TopNav"
+            android:exported="true"/>
+        <activity android:name=".studentdetails"
+            android:exported="true"/>
     </application>
 
 </manifest>
