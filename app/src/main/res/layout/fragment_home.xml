@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+<!--    <include layout="@layout/toolbar_layout" />-->
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Labs Card Views -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/welcome_user_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:padding="16dp"
+                android:text="Welcome, User"/>
+            <!-- CC Lab -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/is_lab_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/welcome_user_textview"
+                android:layout_marginBottom="16dp"
+                android:layout_margin="16dp"
+                android:background="#8A97A8"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onISLabClick">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/islab"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="IS Lab"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+                <!-- Lab Content Goes Here -->
+            </androidx.cardview.widget.CardView>
+
+            <!-- Project Lab -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cc_lab_card"
+                android:layout_width="match_parent"
+                android:layout_below="@id/is_lab_card"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:background="#d9e5f4"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onCCLabClick"
+                android:layout_margin="16dp"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cclab"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="CC Lab"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+                <!-- Other content for CC Lab can be added here if needed -->
+            </androidx.cardview.widget.CardView>
+
+            <!-- Software Lab -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/project_lab_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@id/cc_lab_card"
+                android:background="#d9e5f4"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onProjectLabClick">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/projectlab"
+                    android:scaleType="centerCrop" />
+                <!-- Lab Content Goes Here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Project Lab"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+            </androidx.cardview.widget.CardView>
+            <!-- Add more content here if needed -->
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
